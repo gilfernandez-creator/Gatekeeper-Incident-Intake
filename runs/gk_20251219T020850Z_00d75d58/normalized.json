@@ -1,0 +1,28 @@
+{
+  "record": {
+    "summary": "Slip",
+    "category": "Incident",
+    "location": null,
+    "event_time": null,
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [
+      "location"
+    ],
+    "flags": [
+      "SUMMARY_TOO_SHORT"
+    ],
+    "canonical": {
+      "summary": "Slip",
+      "category": "Incident",
+      "location": null,
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

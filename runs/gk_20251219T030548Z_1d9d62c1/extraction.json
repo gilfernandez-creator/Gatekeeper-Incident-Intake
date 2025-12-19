@@ -1,0 +1,75 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Motor vehicle accident involving company truck",
+          "evidence": {
+            "text": "Motor vehicle accident on 2024-11-12 involving company truck at Dallas site.",
+            "start": 0,
+            "end": 76
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Motor Vehicle Accident",
+          "evidence": {
+            "text": "Motor vehicle accident on 2024-11-12 involving company truck at Dallas site.",
+            "start": 0,
+            "end": 76
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "Dallas site",
+          "evidence": {
+            "text": "Dallas site.",
+            "start": 64,
+            "end": 76
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "2024-11-12",
+            "start": 26,
+            "end": 36
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

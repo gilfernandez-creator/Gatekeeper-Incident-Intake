@@ -1,0 +1,24 @@
+{
+  "record": {
+    "summary": "Worker injury at Houston warehouse",
+    "category": "Injury/Illness",
+    "location": "Houston warehouse",
+    "event_time": "2024-11-12",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [],
+    "flags": [],
+    "canonical": {
+      "summary": "Worker injury at Houston warehouse",
+      "category": "Injury/Illness",
+      "location": "Houston warehouse",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

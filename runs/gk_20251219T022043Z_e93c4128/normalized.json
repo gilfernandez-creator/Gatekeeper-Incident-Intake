@@ -1,0 +1,27 @@
+{
+  "record": {
+    "summary": "Incident at Houston warehouse yesterday",
+    "category": "Incident",
+    "location": "Houston warehouse",
+    "event_time": null,
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [],
+    "flags": [
+      "RELATIVE_TIME_UNRESOLVED",
+      "PROMPT_INJECTION_ATTEMPT"
+    ],
+    "canonical": {
+      "summary": "Incident at Houston warehouse yesterday",
+      "category": "Incident",
+      "location": "Houston warehouse",
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "decision": "REJECTED",
+  "reason_codes": [
+    "POLICY_BLOCKED"
+  ],
+  "rule_ids_fired": [
+    "GK-REJECT-INJECTION"
+  ],
+  "required_next_actions": [
+    "Remove coercive/prompt-injection language and resubmit clean input."
+  ],
+  "confidence_bound": 0.75
+}

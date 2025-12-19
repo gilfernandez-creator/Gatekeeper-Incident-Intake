@@ -1,0 +1,75 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Near Miss incident",
+          "evidence": {
+            "text": "Near Miss incident at Houston warehouse on 2024-11-12.",
+            "start": 0,
+            "end": 54
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Near Miss",
+          "evidence": {
+            "text": "Near Miss incident at Houston warehouse on 2024-11-12.",
+            "start": 0,
+            "end": 54
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "Houston warehouse",
+          "evidence": {
+            "text": "Houston warehouse on 2024-11-12.",
+            "start": 22,
+            "end": 54
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "2024-11-12.",
+            "start": 43,
+            "end": 54
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

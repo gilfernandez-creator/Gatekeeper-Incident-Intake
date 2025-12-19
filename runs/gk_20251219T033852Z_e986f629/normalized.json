@@ -1,0 +1,29 @@
+{
+  "record": {
+    "summary": "Incident at Houston warehouse",
+    "category": null,
+    "location": "Houston warehouse",
+    "event_time": null,
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [
+      "category",
+      "event_time"
+    ],
+    "flags": [
+      "RELATIVE_TIME_UNRESOLVED"
+    ],
+    "canonical": {
+      "summary": "Incident at Houston warehouse",
+      "category": null,
+      "location": "Houston warehouse",
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

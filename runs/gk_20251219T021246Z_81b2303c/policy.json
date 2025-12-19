@@ -1,0 +1,13 @@
+{
+  "decision": "REJECTED",
+  "reason_codes": [
+    "EMPTY_INPUT"
+  ],
+  "rule_ids_fired": [
+    "GK-REJECT-EMPTY"
+  ],
+  "required_next_actions": [
+    "Provide a non-empty intake description."
+  ],
+  "confidence_bound": 0.75
+}

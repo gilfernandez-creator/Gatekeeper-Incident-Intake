@@ -1,0 +1,101 @@
+{
+  "run_id": "gk_20251219T014455Z_0be195eb",
+  "decision": "ESCALATED",
+  "policy_version": "v1",
+  "model": "mock",
+  "received_at": "2025-12-19T01:44:55.263526Z",
+  "decided_at": "2025-12-19T01:44:55.282340Z",
+  "duration_ms": 18,
+  "input": {
+    "raw_text": "There was an incident at the Houston warehouse yesterday.",
+    "metadata": {
+      "source": null,
+      "submitted_by": null,
+      "business_unit": null,
+      "received_at": "2025-12-19T01:44:55.263526Z",
+      "extra": {}
+    }
+  },
+  "extraction": {
+    "model": "mock",
+    "extraction_confidence": 0.0,
+    "fields": {
+      "summary": {
+        "field": "summary",
+        "candidates": []
+      },
+      "category": {
+        "field": "category",
+        "candidates": []
+      },
+      "location": {
+        "field": "location",
+        "candidates": []
+      },
+      "event_time": {
+        "field": "event_time",
+        "candidates": []
+      },
+      "severity": {
+        "field": "severity",
+        "candidates": []
+      },
+      "people_involved": {
+        "field": "people_involved",
+        "candidates": []
+      },
+      "requested_action": {
+        "field": "requested_action",
+        "candidates": []
+      }
+    },
+    "notes": "Mock extractor — no AI inference performed."
+  },
+  "normalized": {
+    "record": {
+      "summary": null,
+      "category": null,
+      "location": null,
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    },
+    "report": {
+      "missing_required": [
+        "summary",
+        "category",
+        "location"
+      ],
+      "flags": [
+        "RELATIVE_TIME_UNRESOLVED"
+      ],
+      "canonical": {
+        "summary": null,
+        "category": null,
+        "location": null,
+        "event_time": null,
+        "severity": null,
+        "people_involved": [],
+        "requested_action": null
+      }
+    }
+  },
+  "policy": {
+    "decision": "ESCALATED",
+    "reason_codes": [
+      "RELATIVE_TIME_UNRESOLVED"
+    ],
+    "rule_ids_fired": [
+      "GK-ESCALATE-RELATIVE-TIME"
+    ],
+    "required_next_actions": [
+      "Clarify the exact event date/time in ISO format or explicit date."
+    ],
+    "confidence_bound": 0.75
+  },
+  "build": {
+    "system": "Gatekeeper",
+    "policy_version": "v1"
+  }
+}

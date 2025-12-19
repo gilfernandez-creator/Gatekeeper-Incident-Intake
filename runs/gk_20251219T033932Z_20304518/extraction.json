@@ -1,0 +1,84 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 0.9,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Environmental incident on 2024-11-12.",
+          "evidence": {
+            "text": "Environmental incident on 2024-11-12.",
+            "start": 0,
+            "end": 37
+          },
+          "confidence": 0.9
+        },
+        {
+          "value": "Diesel spill near loading dock.",
+          "evidence": {
+            "text": "Diesel spill near loading dock.",
+            "start": 38,
+            "end": 69
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Environmental Incident",
+          "evidence": {
+            "text": "Environmental incident on 2024-11-12.",
+            "start": 0,
+            "end": 37
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "loading dock",
+          "evidence": {
+            "text": "Diesel spill near loading dock.",
+            "start": 38,
+            "end": 69
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "Environmental incident on 2024-11-12.",
+            "start": 0,
+            "end": 37
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

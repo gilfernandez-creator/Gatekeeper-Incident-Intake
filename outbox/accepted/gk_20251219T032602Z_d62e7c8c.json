@@ -1,0 +1,132 @@
+{
+  "run_id": "gk_20251219T032602Z_d62e7c8c",
+  "decision": "ACCEPTED",
+  "policy_version": "v1",
+  "model": "gpt-4o-mini",
+  "received_at": "2025-12-19T03:26:02.246960Z",
+  "decided_at": "2025-12-19T03:26:09.038249Z",
+  "duration_ms": 6791,
+  "input": {
+    "raw_text": "Near Miss incident at Houston warehouse on 2024-11-12.",
+    "metadata": {
+      "source": null,
+      "submitted_by": null,
+      "business_unit": null,
+      "received_at": "2025-12-19T03:26:02.246960Z",
+      "extra": {}
+    }
+  },
+  "extraction": {
+    "model": "gpt-4o-mini",
+    "extraction_confidence": 1.0,
+    "fields": {
+      "summary": {
+        "field": "summary",
+        "candidates": [
+          {
+            "value": "Near Miss incident",
+            "evidence": {
+              "text": "Near Miss incident at Houston warehouse on 2024-11-12.",
+              "start": 0,
+              "end": 54
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "category": {
+        "field": "category",
+        "candidates": [
+          {
+            "value": "Near Miss",
+            "evidence": {
+              "text": "Near Miss incident at Houston warehouse on 2024-11-12.",
+              "start": 0,
+              "end": 54
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "location": {
+        "field": "location",
+        "candidates": [
+          {
+            "value": "Houston warehouse",
+            "evidence": {
+              "text": "Houston warehouse on 2024-11-12.",
+              "start": 22,
+              "end": 54
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "event_time": {
+        "field": "event_time",
+        "candidates": [
+          {
+            "value": "2024-11-12",
+            "evidence": {
+              "text": "2024-11-12.",
+              "start": 43,
+              "end": 54
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "severity": {
+        "field": "severity",
+        "candidates": []
+      },
+      "people_involved": {
+        "field": "people_involved",
+        "candidates": []
+      },
+      "requested_action": {
+        "field": "requested_action",
+        "candidates": []
+      }
+    },
+    "notes": ""
+  },
+  "normalized": {
+    "record": {
+      "summary": "Near Miss incident",
+      "category": "Near Miss",
+      "location": "Houston warehouse",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    },
+    "report": {
+      "missing_required": [],
+      "flags": [],
+      "canonical": {
+        "summary": "Near Miss incident",
+        "category": "Near Miss",
+        "location": "Houston warehouse",
+        "event_time": "2024-11-12",
+        "severity": null,
+        "people_involved": [],
+        "requested_action": null
+      }
+    }
+  },
+  "policy": {
+    "decision": "ACCEPTED",
+    "reason_codes": [],
+    "rule_ids_fired": [
+      "GK-DEFAULT-ACCEPT"
+    ],
+    "required_next_actions": [],
+    "confidence_bound": 0.75
+  },
+  "build": {
+    "system": "Gatekeeper",
+    "policy_version": "v1",
+    "policy_hash": "a33562797d615a04f8bba94e56961cb39439e4fada0ea8a954327ea06686140f"
+  }
+}

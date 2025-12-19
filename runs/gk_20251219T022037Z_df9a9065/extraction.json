@@ -1,0 +1,65 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "incident involving a contractor",
+          "evidence": {
+            "text": "There was an incident involving a contractor on 2024-11-12.",
+            "start": 0,
+            "end": 59
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Incident",
+          "evidence": {
+            "text": "There was an incident involving a contractor on 2024-11-12.",
+            "start": 0,
+            "end": 59
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": []
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "2024-11-12",
+            "start": 48,
+            "end": 58
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

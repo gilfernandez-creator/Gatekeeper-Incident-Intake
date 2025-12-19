@@ -1,0 +1,35 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 0.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": []
+    },
+    "category": {
+      "field": "category",
+      "candidates": []
+    },
+    "location": {
+      "field": "location",
+      "candidates": []
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": []
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": "No relevant information provided in the input text."
+}

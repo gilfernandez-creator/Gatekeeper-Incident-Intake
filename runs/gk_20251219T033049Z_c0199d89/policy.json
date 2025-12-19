@@ -1,0 +1,9 @@
+{
+  "decision": "ACCEPTED",
+  "reason_codes": [],
+  "rule_ids_fired": [
+    "GK-DEFAULT-ACCEPT"
+  ],
+  "required_next_actions": [],
+  "confidence_bound": 0.75
+}

@@ -1,0 +1,75 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Incident occurred at Houston warehouse on 2024-11-12.",
+          "evidence": {
+            "text": "Incident occurred at Houston warehouse on 2024-11-12.",
+            "start": 0,
+            "end": 53
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Incident",
+          "evidence": {
+            "text": "Incident occurred at Houston warehouse on 2024-11-12.",
+            "start": 0,
+            "end": 53
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "Houston warehouse",
+          "evidence": {
+            "text": "Houston warehouse",
+            "start": 21,
+            "end": 38
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "2024-11-12",
+            "start": 42,
+            "end": 52
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

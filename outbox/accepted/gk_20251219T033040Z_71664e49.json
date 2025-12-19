@@ -1,0 +1,141 @@
+{
+  "run_id": "gk_20251219T033040Z_71664e49",
+  "decision": "ACCEPTED",
+  "policy_version": "v1",
+  "model": "gpt-4o-mini",
+  "received_at": "2025-12-19T03:30:40.263489Z",
+  "decided_at": "2025-12-19T03:30:44.919630Z",
+  "duration_ms": 4656,
+  "input": {
+    "raw_text": "Worker injury at Houston warehouse on 2024-11-12. Employee slipped and fractured wrist.",
+    "metadata": {
+      "source": null,
+      "submitted_by": null,
+      "business_unit": null,
+      "received_at": "2025-12-19T03:30:40.263489Z",
+      "extra": {}
+    }
+  },
+  "extraction": {
+    "model": "gpt-4o-mini",
+    "extraction_confidence": 1.0,
+    "fields": {
+      "summary": {
+        "field": "summary",
+        "candidates": [
+          {
+            "value": "Employee slipped and fractured wrist.",
+            "evidence": {
+              "text": "Employee slipped and fractured wrist.",
+              "start": 50,
+              "end": 87
+            },
+            "confidence": 1.0
+          },
+          {
+            "value": "Worker injury at Houston warehouse",
+            "evidence": {
+              "text": "Worker injury at Houston warehouse",
+              "start": 0,
+              "end": 34
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "category": {
+        "field": "category",
+        "candidates": [
+          {
+            "value": "Injury/Illness",
+            "evidence": {
+              "text": "Worker injury at Houston warehouse",
+              "start": 0,
+              "end": 34
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "location": {
+        "field": "location",
+        "candidates": [
+          {
+            "value": "Houston warehouse",
+            "evidence": {
+              "text": "Worker injury at Houston warehouse",
+              "start": 0,
+              "end": 34
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "event_time": {
+        "field": "event_time",
+        "candidates": [
+          {
+            "value": "2024-11-12",
+            "evidence": {
+              "text": "on 2024-11-12",
+              "start": 35,
+              "end": 48
+            },
+            "confidence": 1.0
+          }
+        ]
+      },
+      "severity": {
+        "field": "severity",
+        "candidates": []
+      },
+      "people_involved": {
+        "field": "people_involved",
+        "candidates": []
+      },
+      "requested_action": {
+        "field": "requested_action",
+        "candidates": []
+      }
+    },
+    "notes": ""
+  },
+  "normalized": {
+    "record": {
+      "summary": "Employee slipped and fractured wrist.",
+      "category": "Injury/Illness",
+      "location": "Houston warehouse",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    },
+    "report": {
+      "missing_required": [],
+      "flags": [],
+      "canonical": {
+        "summary": "Employee slipped and fractured wrist.",
+        "category": "Injury/Illness",
+        "location": "Houston warehouse",
+        "event_time": "2024-11-12",
+        "severity": null,
+        "people_involved": [],
+        "requested_action": null
+      }
+    }
+  },
+  "policy": {
+    "decision": "ACCEPTED",
+    "reason_codes": [],
+    "rule_ids_fired": [
+      "GK-DEFAULT-ACCEPT"
+    ],
+    "required_next_actions": [],
+    "confidence_bound": 0.75
+  },
+  "build": {
+    "system": "Gatekeeper",
+    "policy_version": "v1",
+    "policy_hash": "362c9dc2f40889c933f41b060ba6c4dee999a572b391ae6faa1de02afd10d689"
+  }
+}

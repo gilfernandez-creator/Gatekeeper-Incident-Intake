@@ -1,0 +1,75 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Forklift narrowly avoided pedestrian.",
+          "evidence": {
+            "text": "Forklift narrowly avoided pedestrian.",
+            "start": 46,
+            "end": 83
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Near Miss",
+          "evidence": {
+            "text": "Near miss at Houston warehouse",
+            "start": 0,
+            "end": 30
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "Houston warehouse",
+          "evidence": {
+            "text": "Near miss at Houston warehouse",
+            "start": 0,
+            "end": 30
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12T00:00:00Z",
+          "evidence": {
+            "text": "2024-11-12",
+            "start": 34,
+            "end": 44
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

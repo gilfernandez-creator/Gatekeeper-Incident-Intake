@@ -1,0 +1,119 @@
+{
+  "run_id": "gk_20251219T020850Z_00d75d58",
+  "decision": "REJECTED",
+  "policy_version": "v1",
+  "model": "gpt-4o-mini",
+  "received_at": "2025-12-19T02:08:50.416690Z",
+  "decided_at": "2025-12-19T02:08:55.238354Z",
+  "duration_ms": 4821,
+  "input": {
+    "raw_text": "Slip.",
+    "metadata": {
+      "source": null,
+      "submitted_by": null,
+      "business_unit": null,
+      "received_at": "2025-12-19T02:08:50.416690Z",
+      "extra": {}
+    }
+  },
+  "extraction": {
+    "model": "gpt-4o-mini",
+    "extraction_confidence": 0.8,
+    "fields": {
+      "summary": {
+        "field": "summary",
+        "candidates": [
+          {
+            "value": "Slip",
+            "evidence": {
+              "text": "Slip.",
+              "start": 0,
+              "end": 5
+            },
+            "confidence": 0.9
+          }
+        ]
+      },
+      "category": {
+        "field": "category",
+        "candidates": [
+          {
+            "value": "Incident",
+            "evidence": {
+              "text": "Slip.",
+              "start": 0,
+              "end": 5
+            },
+            "confidence": 0.9
+          }
+        ]
+      },
+      "location": {
+        "field": "location",
+        "candidates": []
+      },
+      "event_time": {
+        "field": "event_time",
+        "candidates": []
+      },
+      "severity": {
+        "field": "severity",
+        "candidates": []
+      },
+      "people_involved": {
+        "field": "people_involved",
+        "candidates": []
+      },
+      "requested_action": {
+        "field": "requested_action",
+        "candidates": []
+      }
+    },
+    "notes": ""
+  },
+  "normalized": {
+    "record": {
+      "summary": "Slip",
+      "category": "Incident",
+      "location": null,
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    },
+    "report": {
+      "missing_required": [
+        "location"
+      ],
+      "flags": [
+        "SUMMARY_TOO_SHORT"
+      ],
+      "canonical": {
+        "summary": "Slip",
+        "category": "Incident",
+        "location": null,
+        "event_time": null,
+        "severity": null,
+        "people_involved": [],
+        "requested_action": null
+      }
+    }
+  },
+  "policy": {
+    "decision": "REJECTED",
+    "reason_codes": [
+      "MISSING_REQUIRED_FIELDS"
+    ],
+    "rule_ids_fired": [
+      "GK-REJECT-MISSING-REQUIRED"
+    ],
+    "required_next_actions": [
+      "Provide the missing required fields: summary, category, location."
+    ],
+    "confidence_bound": 0.75
+  },
+  "build": {
+    "system": "Gatekeeper",
+    "policy_version": "v1"
+  }
+}

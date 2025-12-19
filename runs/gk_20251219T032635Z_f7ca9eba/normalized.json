@@ -1,0 +1,24 @@
+{
+  "record": {
+    "summary": "Environmental incident on 2024-11-12.",
+    "category": "Environmental Incident",
+    "location": "near loading dock",
+    "event_time": "2024-11-12",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [],
+    "flags": [],
+    "canonical": {
+      "summary": "Environmental incident on 2024-11-12.",
+      "category": "Environmental Incident",
+      "location": "near loading dock",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

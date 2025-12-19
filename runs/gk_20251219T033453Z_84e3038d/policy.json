@@ -1,0 +1,11 @@
+{
+  "decision": "REJECTED",
+  "reason_codes": [],
+  "rule_ids_fired": [
+    "GK-REJECT-MISSING-LOCATION"
+  ],
+  "required_next_actions": [
+    "Provide the incident location (site, facility, area, or address)."
+  ],
+  "confidence_bound": 0.75
+}

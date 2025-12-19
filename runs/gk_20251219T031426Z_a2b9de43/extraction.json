@@ -1,0 +1,84 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Diesel spill near loading dock.",
+          "evidence": {
+            "text": "Diesel spill near loading dock.",
+            "start": 38,
+            "end": 69
+          },
+          "confidence": 1.0
+        },
+        {
+          "value": "Environmental incident on 2024-11-12.",
+          "evidence": {
+            "text": "Environmental incident on 2024-11-12.",
+            "start": 0,
+            "end": 37
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Environmental Incident",
+          "evidence": {
+            "text": "Environmental incident",
+            "start": 0,
+            "end": 22
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "loading dock",
+          "evidence": {
+            "text": "near loading dock",
+            "start": 51,
+            "end": 68
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "on 2024-11-12",
+            "start": 23,
+            "end": 36
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

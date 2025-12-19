@@ -1,0 +1,11 @@
+{
+  "decision": "ESCALATED",
+  "reason_codes": [],
+  "rule_ids_fired": [
+    "GK-ESCALATE-MISSING-CATEGORY"
+  ],
+  "required_next_actions": [
+    "Select an incident category: Injury/Illness, Near Miss, Property Damage, Motor Vehicle Accident, or Environmental Incident."
+  ],
+  "confidence_bound": 0.75
+}

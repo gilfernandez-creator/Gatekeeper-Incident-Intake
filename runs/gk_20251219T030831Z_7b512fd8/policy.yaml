@@ -1,0 +1,83 @@
+# policies/v1/policy.yaml
+version: v1
+required_for_accept:
+  - summary
+  - category
+  - location
+  - event_time
+
+rules:
+
+      
+  - id: GK-REJECT-INJECTION
+    when:
+      any:
+        - condition: flag_present
+          value: PROMPT_INJECTION_ATTEMPT
+    then:
+      decision: REJECTED
+      reason_codes: [POLICY_BLOCKED]
+      required_next_actions: ["Remove coercive/prompt-injection language and resubmit clean input."]
+
+  - id: GK-REJECT-EMPTY
+    when:
+      any:
+        - condition: empty_input
+    then:
+      decision: REJECTED
+      reason_codes: [EMPTY_INPUT]
+      required_next_actions: ["Provide a non-empty intake description."]
+  - id: GK-ESCALATE-INVALID-INCIDENT-CATEGORY
+    when:
+      any:
+        - condition: field_not_in
+          field: category
+          values:
+            - "Injury/Illness"
+            - "Near Miss"
+            - "Property Damage"
+            - "Motor Vehicle Accident"
+            - "Environmental Incident"
+    then:
+      decision: ESCALATED
+      reason_codes: [INVALID_CATEGORY]
+      required_next_actions:
+        - "Select a valid incident category: Injury/Illness, Near Miss, Property Damage, Motor Vehicle Accident, or Environmental Incident."
+
+  - id: GK-REJECT-MISSING-REQUIRED
+    when:
+      any:
+        - condition: missing_required
+    then:
+      decision: REJECTED
+      reason_codes: [MISSING_REQUIRED_FIELDS]
+      required_next_actions: ["Provide the missing required fields: summary, category, location, event time."]
+
+  - id: GK-ESCALATE-RELATIVE-TIME
+    when:
+      any:
+        - condition: flag_present
+          value: RELATIVE_TIME_UNRESOLVED
+    then:
+      decision: ESCALATED
+      reason_codes: [RELATIVE_TIME_UNRESOLVED]
+      required_next_actions: ["Clarify the exact event date/time in ISO format or explicit date."]
+
+  - id: GK-ESCALATE-SUMMARY-TOO-SHORT
+    when:
+      any:
+        - condition: flag_present
+          value: SUMMARY_TOO_SHORT
+    then:
+      decision: ESCALATED
+      reason_codes: [SUMMARY_TOO_SHORT]
+      required_next_actions: ["Expand the summary to at least 12 characters and include concrete details."]
+
+  - id: GK-DEFAULT-ACCEPT
+    when:
+      all:
+        - condition: no_blockers
+    then:
+      decision: ACCEPTED
+      reason_codes: []
+      required_next_actions: []

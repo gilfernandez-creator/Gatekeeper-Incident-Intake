@@ -1,0 +1,13 @@
+{
+  "decision": "REJECTED",
+  "reason_codes": [
+    "MISSING_REQUIRED_FIELDS"
+  ],
+  "rule_ids_fired": [
+    "GK-REJECT-MISSING-REQUIRED"
+  ],
+  "required_next_actions": [
+    "Provide the missing required fields: summary, category, location."
+  ],
+  "confidence_bound": 0.75
+}

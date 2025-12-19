@@ -1,0 +1,26 @@
+{
+  "record": {
+    "summary": "an incident involving a contractor",
+    "category": "Incident",
+    "location": null,
+    "event_time": "2024-11-12",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [
+      "location"
+    ],
+    "flags": [],
+    "canonical": {
+      "summary": "an incident involving a contractor",
+      "category": "Incident",
+      "location": null,
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

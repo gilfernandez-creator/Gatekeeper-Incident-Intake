@@ -1,0 +1,75 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 1.0,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "Employee slipped and fractured wrist.",
+          "evidence": {
+            "text": "Employee slipped and fractured wrist.",
+            "start": 50,
+            "end": 87
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Injury/Illness",
+          "evidence": {
+            "text": "Worker injury at Houston warehouse",
+            "start": 0,
+            "end": 34
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "Houston warehouse",
+          "evidence": {
+            "text": "Worker injury at Houston warehouse",
+            "start": 0,
+            "end": 34
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": [
+        {
+          "value": "2024-11-12",
+          "evidence": {
+            "text": "on 2024-11-12",
+            "start": 35,
+            "end": 48
+          },
+          "confidence": 1.0
+        }
+      ]
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": []
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}

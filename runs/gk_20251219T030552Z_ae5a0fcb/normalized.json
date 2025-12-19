@@ -1,0 +1,24 @@
+{
+  "record": {
+    "summary": "Diesel spill near loading dock.",
+    "category": "Environmental Incident",
+    "location": "loading dock",
+    "event_time": "2024-11-12",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [],
+    "flags": [],
+    "canonical": {
+      "summary": "Diesel spill near loading dock.",
+      "category": "Environmental Incident",
+      "location": "loading dock",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

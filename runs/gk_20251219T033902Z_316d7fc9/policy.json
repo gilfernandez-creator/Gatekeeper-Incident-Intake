@@ -1,0 +1,13 @@
+{
+  "decision": "REJECTED",
+  "reason_codes": [
+    "SUMMARY_TOO_SHORT"
+  ],
+  "rule_ids_fired": [
+    "GK-REJECT-SUMMARY-TOO-SHORT"
+  ],
+  "required_next_actions": [
+    "Provide a clearer incident summary (minimum detail threshold). Include what happened, where, and who was involved."
+  ],
+  "confidence_bound": 0.75
+}

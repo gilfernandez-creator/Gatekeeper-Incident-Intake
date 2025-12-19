@@ -1,0 +1,112 @@
+{
+  "run_id": "gk_20251219T030820Z_42affb34",
+  "decision": "REJECTED",
+  "policy_version": "v1",
+  "model": "gpt-4o-mini",
+  "received_at": "2025-12-19T03:08:20.087200Z",
+  "decided_at": "2025-12-19T03:08:23.732774Z",
+  "duration_ms": 3645,
+  "input": {
+    "raw_text": "Slip.",
+    "metadata": {
+      "source": null,
+      "submitted_by": null,
+      "business_unit": null,
+      "received_at": "2025-12-19T03:08:20.087200Z",
+      "extra": {}
+    }
+  },
+  "extraction": {
+    "model": "gpt-4o-mini",
+    "extraction_confidence": 0.9,
+    "fields": {
+      "summary": {
+        "field": "summary",
+        "candidates": [
+          {
+            "value": "Slip",
+            "evidence": {
+              "text": "Slip",
+              "start": 0,
+              "end": 4
+            },
+            "confidence": 0.9
+          }
+        ]
+      },
+      "category": {
+        "field": "category",
+        "candidates": []
+      },
+      "location": {
+        "field": "location",
+        "candidates": []
+      },
+      "event_time": {
+        "field": "event_time",
+        "candidates": []
+      },
+      "severity": {
+        "field": "severity",
+        "candidates": []
+      },
+      "people_involved": {
+        "field": "people_involved",
+        "candidates": []
+      },
+      "requested_action": {
+        "field": "requested_action",
+        "candidates": []
+      }
+    },
+    "notes": ""
+  },
+  "normalized": {
+    "record": {
+      "summary": "Slip",
+      "category": null,
+      "location": null,
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    },
+    "report": {
+      "missing_required": [
+        "category",
+        "location",
+        "event_time"
+      ],
+      "flags": [
+        "SUMMARY_TOO_SHORT"
+      ],
+      "canonical": {
+        "summary": "Slip",
+        "category": null,
+        "location": null,
+        "event_time": null,
+        "severity": null,
+        "people_involved": [],
+        "requested_action": null
+      }
+    }
+  },
+  "policy": {
+    "decision": "REJECTED",
+    "reason_codes": [
+      "MISSING_REQUIRED_FIELDS"
+    ],
+    "rule_ids_fired": [
+      "GK-REJECT-MISSING-REQUIRED"
+    ],
+    "required_next_actions": [
+      "Provide the missing required fields: summary, category, location, event time."
+    ],
+    "confidence_bound": 0.75
+  },
+  "build": {
+    "system": "Gatekeeper",
+    "policy_version": "v1",
+    "policy_hash": "c86efdd7bc5de99f49720a8ce3260b04e37d648088d85972799756142f266ce1"
+  }
+}

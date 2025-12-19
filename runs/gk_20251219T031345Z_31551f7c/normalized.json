@@ -1,0 +1,29 @@
+{
+  "record": {
+    "summary": null,
+    "category": null,
+    "location": null,
+    "event_time": null,
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [
+      "summary",
+      "category",
+      "location",
+      "event_time"
+    ],
+    "flags": [],
+    "canonical": {
+      "summary": null,
+      "category": null,
+      "location": null,
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

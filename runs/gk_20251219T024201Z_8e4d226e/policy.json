@@ -1,0 +1,13 @@
+{
+  "decision": "ESCALATED",
+  "reason_codes": [
+    "RELATIVE_TIME_UNRESOLVED"
+  ],
+  "rule_ids_fired": [
+    "GK-ESCALATE-RELATIVE-TIME"
+  ],
+  "required_next_actions": [
+    "Clarify the exact event date/time in ISO format or explicit date."
+  ],
+  "confidence_bound": 0.75
+}

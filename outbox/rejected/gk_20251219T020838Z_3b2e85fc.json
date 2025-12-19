@@ -1,0 +1,99 @@
+{
+  "run_id": "gk_20251219T020838Z_3b2e85fc",
+  "decision": "REJECTED",
+  "policy_version": "v1",
+  "model": "gpt-4o-mini",
+  "received_at": "2025-12-19T02:08:38.163376Z",
+  "decided_at": "2025-12-19T02:08:41.461980Z",
+  "duration_ms": 3298,
+  "input": {
+    "raw_text": "",
+    "metadata": {
+      "source": null,
+      "submitted_by": null,
+      "business_unit": null,
+      "received_at": "2025-12-19T02:08:38.163376Z",
+      "extra": {}
+    }
+  },
+  "extraction": {
+    "model": "gpt-4o-mini",
+    "extraction_confidence": 0.0,
+    "fields": {
+      "summary": {
+        "field": "summary",
+        "candidates": []
+      },
+      "category": {
+        "field": "category",
+        "candidates": []
+      },
+      "location": {
+        "field": "location",
+        "candidates": []
+      },
+      "event_time": {
+        "field": "event_time",
+        "candidates": []
+      },
+      "severity": {
+        "field": "severity",
+        "candidates": []
+      },
+      "people_involved": {
+        "field": "people_involved",
+        "candidates": []
+      },
+      "requested_action": {
+        "field": "requested_action",
+        "candidates": []
+      }
+    },
+    "notes": "No relevant data found in the input text."
+  },
+  "normalized": {
+    "record": {
+      "summary": null,
+      "category": null,
+      "location": null,
+      "event_time": null,
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    },
+    "report": {
+      "missing_required": [
+        "summary",
+        "category",
+        "location"
+      ],
+      "flags": [],
+      "canonical": {
+        "summary": null,
+        "category": null,
+        "location": null,
+        "event_time": null,
+        "severity": null,
+        "people_involved": [],
+        "requested_action": null
+      }
+    }
+  },
+  "policy": {
+    "decision": "REJECTED",
+    "reason_codes": [
+      "EMPTY_INPUT"
+    ],
+    "rule_ids_fired": [
+      "GK-REJECT-EMPTY"
+    ],
+    "required_next_actions": [
+      "Provide a non-empty intake description."
+    ],
+    "confidence_bound": 0.75
+  },
+  "build": {
+    "system": "Gatekeeper",
+    "policy_version": "v1"
+  }
+}

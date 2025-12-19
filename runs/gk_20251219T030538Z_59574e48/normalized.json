@@ -1,0 +1,24 @@
+{
+  "record": {
+    "summary": "Forklift narrowly avoided pedestrian.",
+    "category": "Near Miss",
+    "location": "Houston warehouse",
+    "event_time": "2024-11-12T00:00:00Z",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [],
+    "flags": [],
+    "canonical": {
+      "summary": "Forklift narrowly avoided pedestrian.",
+      "category": "Near Miss",
+      "location": "Houston warehouse",
+      "event_time": "2024-11-12T00:00:00Z",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

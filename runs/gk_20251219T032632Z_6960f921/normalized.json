@@ -1,0 +1,24 @@
+{
+  "record": {
+    "summary": "Motor vehicle accident involving company truck at Dallas site.",
+    "category": "Motor Vehicle Accident",
+    "location": "Dallas site",
+    "event_time": "2024-11-12",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [],
+    "flags": [],
+    "canonical": {
+      "summary": "Motor vehicle accident involving company truck at Dallas site.",
+      "category": "Motor Vehicle Accident",
+      "location": "Dallas site",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

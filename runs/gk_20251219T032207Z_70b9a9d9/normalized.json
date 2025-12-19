@@ -1,0 +1,26 @@
+{
+  "record": {
+    "summary": "Something bad happened.",
+    "category": null,
+    "location": "Houston warehouse",
+    "event_time": "2024-11-12",
+    "severity": null,
+    "people_involved": [],
+    "requested_action": null
+  },
+  "report": {
+    "missing_required": [
+      "category"
+    ],
+    "flags": [],
+    "canonical": {
+      "summary": "Something bad happened.",
+      "category": null,
+      "location": "Houston warehouse",
+      "event_time": "2024-11-12",
+      "severity": null,
+      "people_involved": [],
+      "requested_action": null
+    }
+  }
+}

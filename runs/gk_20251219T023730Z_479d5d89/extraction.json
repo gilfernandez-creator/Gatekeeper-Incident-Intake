@@ -1,0 +1,93 @@
+{
+  "model": "gpt-4o-mini",
+  "extraction_confidence": 0.9,
+  "fields": {
+    "summary": {
+      "field": "summary",
+      "candidates": [
+        {
+          "value": "A contractor slipped near Dock 3.",
+          "evidence": {
+            "text": "A contractor slipped near Dock 3.",
+            "start": 58,
+            "end": 91
+          },
+          "confidence": 0.9
+        },
+        {
+          "value": "There was an incident at the Houston warehouse yesterday.",
+          "evidence": {
+            "text": "There was an incident at the Houston warehouse yesterday.",
+            "start": 0,
+            "end": 57
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "category": {
+      "field": "category",
+      "candidates": [
+        {
+          "value": "Incident",
+          "evidence": {
+            "text": "There was an incident at the Houston warehouse yesterday.",
+            "start": 0,
+            "end": 57
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "location": {
+      "field": "location",
+      "candidates": [
+        {
+          "value": "Houston warehouse",
+          "evidence": {
+            "text": "at the Houston warehouse",
+            "start": 22,
+            "end": 46
+          },
+          "confidence": 0.9
+        },
+        {
+          "value": "Dock 3",
+          "evidence": {
+            "text": "near Dock 3",
+            "start": 79,
+            "end": 90
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "event_time": {
+      "field": "event_time",
+      "candidates": []
+    },
+    "severity": {
+      "field": "severity",
+      "candidates": []
+    },
+    "people_involved": {
+      "field": "people_involved",
+      "candidates": [
+        {
+          "value": "contractor",
+          "evidence": {
+            "text": "A contractor slipped near Dock 3.",
+            "start": 58,
+            "end": 91
+          },
+          "confidence": 0.9
+        }
+      ]
+    },
+    "requested_action": {
+      "field": "requested_action",
+      "candidates": []
+    }
+  },
+  "notes": ""
+}
