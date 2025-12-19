@@ -2,7 +2,15 @@
 from __future__ import annotations
 import hashlib
 import os
-from dotenv import load_dotenv
+
+try:
+    from dotenv import load_dotenv
+except Exception:
+    load_dotenv = None
+
+if load_dotenv:
+    load_dotenv()
+    
 
 from core.ids import new_run_id
 from core.clock import Stopwatch, now_iso_utc
@@ -13,9 +21,6 @@ from core.policy import load_policy, decide
 from core.artifacts import write_outbox_artifact
 from core.audit import write_run_bundle
 from core.types import DecisionArtifact
-
-load_dotenv()
-
 
 
 def run_gatekeeper(raw_text: str, metadata: dict | None = None):
